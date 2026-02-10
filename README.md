@@ -1,8 +1,10 @@
+<br><br>
+
 ## 📚 Biblioteca API
 Uma API RESTful para gerenciamento de biblioteca, permitindo operações CRUD para clientes, livros, exemplares e empréstimos.
 Desenvolvido com Java, Spring Boot, JPA/Hibernate e banco de dados H2.
 
-<br><br><br>
+<br><br>
 
 ## 🛠️ Tecnologias Utilizadas
 - Java 21 LTS
@@ -12,21 +14,21 @@ Desenvolvido com Java, Spring Boot, JPA/Hibernate e banco de dados H2.
 - Maven
 - IntelliJ IDEA
 
-<br><br><br>
+<br><br>
 
 ## ⚙️ Configuração do Projeto
 1. Certifique-se de que o IntelliJ IDEA está instalado.
 2. Verifique se o Maven está configurado corretamente.
 3. Abra o projeto no IntelliJ IDEA e aguarde o Maven baixar as dependências.
 
-<br><br><br>
+<br><br>
 
 ## 🚀 Executando a API
 Para iniciar a API, execute a classe principal do projeto `com.example.bibliotecaAPI.BibliotecaApiApplication`. As rotas para gerenciamento de clientes, livros, empréstimos e exemplares estarão disponíveis conforme definido nos controladores.
 
 **Dica:** Para testar as rotas da API, você pode usar ferramentas como **Postman** ou **Insomnia**, enviando requisições GET, POST, PUT e DELETE para os endpoints correspondentes.
 
-<br><br><br>
+<br><br>
 
 ## 🔍 Operações CRUD - Todos os Recursos
 | Método | URL Base        | Descrição                     |
@@ -39,11 +41,55 @@ Para iniciar a API, execute a classe principal do projeto `com.example.bibliotec
 
 <br>
 
-## Exemplos de recurso:
+### Exemplos de recurso:
 - /clientes
 - /livros
 - /exemplares
 - /emprestimos
+
+<br>
+
+### Valores possíveis para enums
+
+<br>
+
+**Clientes – situacao**
+- ATIVO
+- BLOQUEADO
+
+<br>
+
+**Exemplares – estado**
+- DISPONIVEL
+- RESERVADO
+- INDISPONIVEL
+
+<br>
+
+**Livros – categoria**
+- FICCAO
+- FICCAO_CIENTIFICA
+- FANTASIA
+- ROMANCE
+- AVENTURA
+- MISTERIO
+- TERROR
+- BIOGRAFIA
+- HISTORIA
+- EDUCACAO
+- FILOSOFIA
+- RELIGIAO
+- AUTOAJUDA
+- NEGOCIOS
+- TECNOLOGIA
+- CIENCIAS
+- SAUDE
+- PSICOLOGIA
+- ARTE
+- POESIA
+- INFANTIL
+- JUVENIL
+- HQ
 
 <br>
 
@@ -58,7 +104,7 @@ Clientes
 "cpf": "123.456.789-00",
 "telefone": "+55 (11) 91234-5678",
 "email": "ana.souza@example.com",
-"situacao": "APTO"
+"situacao": "ATIVO"
 }
 ```
 
@@ -99,12 +145,12 @@ Empréstimos
 ```
 </details>
 
-<br><br><br>
+<br><br>
 
 ## 📜 Licença
 Este projeto é licenciado sob a Licença MIT.
 
-<br><br><br>
+<br><br>
 
 ## 📬 Contato
 Para dúvidas, sugestões ou feedback, entre em contato pelo e-mail: inykee.github@gmail.com
