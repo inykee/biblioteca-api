@@ -29,7 +29,7 @@ Desenvolvida com Java 21, Spring Boot 3, JPA/Hibernate e banco de dados H2 persi
 
 # 🚀 Executando a API
 
-Para iniciar a API, basta executar a classe principal: `com.example.bibliotecaapi.BibliotecaApiApplication`
+Para iniciar a API, basta executar a classe principal: `biblioteca-api/bibliotecaAPI/src/main/java/com/example/bibliotecaAPI/BibliotecaApiApplication.java`
 
 Para testar os endpoints (GET, POST, PUT, DELETE), você pode usar qualquer ferramenta de requisições HTTP, como Postman ou Insomnia.
 O banco H2 é persistente e armazenado na pasta data/ na raiz do projeto. Não é necessário configurar nada adicional.
