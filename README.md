@@ -46,14 +46,14 @@ biblioteca-api/
 ├─ data/                 # Banco H2 persistente (.mv.db e .trace.db)
 ├─ src/
 │   ├─ main/java/com/example/bibliotecaapi/
-│   │   ├─ config/       # Configurações (H2, Swagger, etc.)
-│   │   ├─ controller/   # Controllers REST
-│   │   ├─ dto/          # DTOs para requests/responses
+│   │   ├─ configs/       # Configurações (H2, Swagger, etc.)
+│   │   ├─ controllers/   # Controllers REST
+│   │   ├─ dtos/          # DTOs para requests/responses
 │   │   ├─ enums/        # Enums (situação, estado, categoria)
-│   │   ├─ exception/    # Tratamento global de erros
-│   │   ├─ model/        # Entidades JPA
-│   │   ├─ repository/   # Repositórios JPA
-│   │   └─ service/      # Lógica de negócio
+│   │   ├─ exceptions/    # Tratamento global de erros
+│   │   ├─ models/        # Entidades JPA
+│   │   ├─ repositories/   # Repositórios JPA
+│   │   └─ services/      # Lógica de negócio
 │   └─ resources/
 │       ├─ application.yaml
 └─ pom.xml
