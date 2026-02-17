@@ -79,6 +79,7 @@ Mesma lógica aplicada para /livros e /exemplares.
 
 CRUD parcialmente disponível:
 - GET → consulta empréstimos
+- GET → consulta empréstimo por ID
 - POST → cria um novo empréstimo
 - PUT → ❌ não disponível (alteração de empréstimos não permitida)
 - DELETE → cancela/deleta um empréstimo
