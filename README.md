@@ -43,17 +43,17 @@ O banco H2 é persistente e armazenado na pasta data/ na raiz do projeto. Não �
 ```
 biblioteca-api/
 │
-├─ data/                 # Banco H2 persistente (.mv.db e .trace.db)
+├─ data/                         # Banco H2 persistente (.mv.db e .trace.db)
 ├─ src/
 │   ├─ main/java/com/example/bibliotecaapi/
-│   │   ├─ configs/       # Configurações (H2, Swagger, etc.)
-│   │   ├─ controllers/   # Controllers REST
-│   │   ├─ dtos/          # DTOs para requests/responses
-│   │   ├─ enums/        # Enums (situação, estado, categoria)
-│   │   ├─ exceptions/    # Tratamento global de erros
-│   │   ├─ models/        # Entidades JPA
-│   │   ├─ repositories/   # Repositórios JPA
-│   │   └─ services/      # Lógica de negócio
+│   │   ├─ configs/              # Configurações (H2, Swagger, etc.)
+│   │   ├─ controllers/          # Controllers REST
+│   │   ├─ dtos/                 # DTOs para requests/responses
+│   │   ├─ enums/                # Enums (situação, estado, categoria)
+│   │   ├─ exceptions/           # Tratamento global de erros
+│   │   ├─ models/               # Entidades JPA
+│   │   ├─ repositories/         # Repositórios JPA
+│   │   └─ services/             # Lógica de negócio
 │   └─ resources/
 │       ├─ application.yaml
 └─ pom.xml
