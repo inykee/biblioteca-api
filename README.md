@@ -45,7 +45,7 @@ biblioteca-api/
 │
 ├─ data/                         # Banco H2 persistente (.mv.db e .trace.db)
 ├─ src/
-│   ├─ main/java/com/example/bibliotecaapi/
+│   ├─ main/java/com/example/bibliotecaAPI/
 │   │   ├─ configs/              # Configurações (H2, Swagger, etc.)
 │   │   ├─ controllers/          # Controllers REST
 │   │   ├─ dtos/                 # DTOs para requests/responses
