@@ -15,7 +15,7 @@
 	<artifactId>bibliotecaAPI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bibliotecaAPI</name>
-	<description>API RESTful para gerenciar clientes, livros, exemplares e empréstimos em bibliotecas. Desenvolvida em Java com Spring Boot e JPA/Hibernate, suporta operações CRUD e enumerações para estados e categorias.</description>
+	<description>API RESTful para gerenciamento de biblioteca, permitindo operações CRUD para clientes, livros, exemplares e empréstimos. Desenvolvida com Java 21, Spring Boot 3, JPA/Hibernate e banco de dados H2 persistente em arquivo.</description>
 
 	<properties>
 		<java.version>21</java.version>
@@ -89,4 +89,5 @@
 			</plugin>
 		</plugins>
 	</build>
+
 </project>
